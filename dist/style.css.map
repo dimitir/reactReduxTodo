@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/main.css"],"names":[],"mappings":"AAAA;AACA;AACA,C","file":"style.css","sourcesContent":["body {\r\n    background-color: aqua;\r\n}"],"sourceRoot":""}
