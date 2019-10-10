@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { createStore } from 'redux';
 import { connect } from 'react-redux';
-import { store } from './store/configureStore';
+import { store } from '../store/configureStore';
 
 
 

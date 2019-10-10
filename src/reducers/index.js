@@ -1,8 +1,8 @@
-export const initialState = {
-    user: 'Unknown User',
-  }
- 
-  
-  export function rootReducer(state = initialState ) {
-    return state
-  }
+import { combineReducers } from 'redux'
+import todos from './todos'
+import visibilityFilter from './visibilityFilter'
+
+export default combineReducers({
+  todos,
+  visibilityFilter
+})
