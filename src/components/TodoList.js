@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Todo from './ToDo';
 
-const TodoList = ({ todos }) => (
+const TodoList = ({ todos, toggleTodo }) => (
 
   < ul >
 
