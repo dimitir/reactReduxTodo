@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Link = ({ active, children, onClick }) => {
-    console.log(typeof onClick);
+    // console.log(active);
     return (
         <button
             onClick={onClick}

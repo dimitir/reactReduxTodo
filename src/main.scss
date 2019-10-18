@@ -1,15 +1,15 @@
-/* button {
+button {
   border: 1px solid #0066cc;
   background-color: #0099cc;
   color: #ffffff;
 }
 
-button:hover {
+/* button:hover {
   border: 1px solid #0099cc;
   background-color: #00aacc;
   color: #ffffff;
 }
-
+ */
 button:disabled,
 button[disabled] {
   border: 1px solid #999999;
@@ -17,9 +17,25 @@ button[disabled] {
   color: #666666;
 }
 
+.todoItem:hover .remove-todo {
+  // display: inline;
+  visibility: visible;
+ 
+}
+
 .remove-todo {
+  visibility: hidden;
+  // display: none;
+
+  &:hover {
+    // border: 1px solid #0099cc;
+    background-color: #cc5c00;
+    color: #ffffff;
+  }
+
+
   margin-left: 10px;
-  background-color: #cc7400;
+  background-color: #666666;
   color: #ffffff;
-  border-radius: 5px;
-} */
+  border-radius: 50%;
+}

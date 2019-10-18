@@ -29,6 +29,18 @@ let conf = {
                 }
             },
             {
+                test: /\.scss$/,
+                use: [
+                  'style-loader',
+                  MiniCssExtractPlugin.loader,
+                  {
+                    loader: 'css-loader'
+                  }, {
+                    loader: 'sass-loader'
+                  }
+                ]
+              },
+            {
                 test: /\.css$/,
                 use: [
                     { loader: MiniCssExtractPlugin.loader },
